@@ -3,15 +3,6 @@
 ## Description
 This project analyzes data from an XML file provided by DrugBank. It processes information about drugs, synonyms, products, pathways, targets, and drug interactions. The results are presented as data tables (using pandas DataFrames) and visualizations (graphs and charts).
 
-## Table of Contents
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Function Descriptions](#function-descriptions)
-- [Author](#author)
-- [License](#license)
-
 ## Requirements
 - Python 3.7+
 - Libraries:
@@ -21,7 +12,7 @@ This project analyzes data from an XML file provided by DrugBank. It processes i
   - `xml.etree.ElementTree` (standard library)
   - `random` (standard library)
 
-Function Descriptions:
+## Function Descriptions:
 - extract_drug_info – Parses basic drug information (ID, name, description, state, food interactions).
 - extract_synonyms – Retrieves synonyms for each drug.
 - draw_synonym_graph – Draws a complete graph connecting a drug and its synonyms.
